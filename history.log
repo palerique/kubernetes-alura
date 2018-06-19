@@ -1,0 +1,388 @@
+    1  ls -la
+    2  ls -la ~/.oh-my-zsh/plugins/
+    3  ls -la ~/.oh-my-zsh/themes
+    4  ls -la
+    5  brew install fonts-powerline
+    6  pip install --user powerline-status\n
+    7  brew install python\n
+    8  pip install --user powerline-status\n
+    9  brew install pip\n
+   10  brew reinstall python\n
+   11  pip install --user powerline-status\n
+   12  pip3 install --user powerline-status\n
+   13  ls -la
+   14  pwd
+   15  cd ../..
+   16  pwd
+   17  ls
+   18  git clone https://github.com/powerline/fonts.git --depth=1
+   19  cd fonts\n./install.sh
+   20  cd ..\nrm -rf fonts
+   21  ls -la
+   22  fc-cache -vf
+   23  echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
+   24  ls -la
+   25  plugins=(git colored-man colorize pip python brew osx zsh-syntax-highlighting)\n
+   26  $ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"\n
+   27  git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"\n
+   28  setopt EXTENDED_GLOB
+   29  for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do\n    ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"\n  done
+   30  prompt -
+   31  prompt -l
+   32  mkcd testing
+   33  # clone\ngit clone https://github.com/powerline/fonts.git --depth=1\n# install\ncd fonts\n./install.sh
+   34  ls -la
+   35  cd fontconfig
+   36  ls -la
+   37  cp 50-enable-terminess-powerline.conf ~/.config/fontconfig/conf.d
+   38  mkdir -p ~/.config/fontconfig/conf.d
+   39  cp 50-enable-terminess-powerline.conf ~/.config/fontconfig/conf.d
+   40  fc-cache -vf
+   41  echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
+   42  wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf\nwget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
+   43  mv PowerlineSymbols.otf ~/.local/share/fonts/\n
+   44  mkdir -p ~/.local/share/fonts/\n
+   45  mv PowerlineSymbols.otf ~/.local/share/fonts/\n
+   46  fc-cache -vf ~/.local/share/fonts/\n
+   47  mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/\n
+   48  pip3 install powerline-status\n
+   49  echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
+   50  cd area-de-trabalho
+   51  cd ws-topup-nexus-final-github
+   52  ls -la
+   53  echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
+   54  history
+   55  history | grep theme
+   56  cd area-de-trabalho/ws-topup-nexus-final-github
+   57  ls -la
+   58  git status
+   59  cd ..
+   60  ls -la
+   61  cd ws-topup-nexus-final-github-II
+   62  git clone -b develop --recursive https://github.com/RedkneeSolutionsInc/UnifiedPayments-Topup-Nexus.git\n
+   63  ls
+   64  cd UnifiedPayments-Topup-Nexus
+   65  ls -la
+   66  git submodule foreach 'git checkout -b develop'
+   67  git submodule foreach 'git commit -am "TOP-1688 created develop branch"; git push origin develop'
+   68  git submodule foreach 'git pull origin develop && git commit -am "TOP-1688 created develop branch" && git push origin develop'
+   69  git submodule foreach 'git pull origin develop && git commit -am "TOP-1688 created develop branch" & git push origin develop'
+   70  git submodule foreach 'git pull && git commit -am "TOP-1688 created develop branch" & git push origin develop'
+   71  cd ..
+   72  ls -la
+   73  rm -rf UnifiedPayments-Topup-Nexus
+   74  rm -rf .git*
+   75  ls -la
+   76  git clone -b develop --recursive https://github.com/RedkneeSolutionsInc/UnifiedPayments-Topup-Nexus.git\n
+   77  ls
+   78  cd UnifiedPayments-Topup-Nexus
+   79  ls
+   80  ls -la
+   81  git submodule foreach 'git checkout develop'
+   82  iterm2
+   83  iterm
+   84  cd /usr/bin
+   85  ls
+   86  ed iterm
+   87  vi iterm
+   88  sudo vi iterm
+   89  sudo touch iterm
+   90  ls -la
+   91  sudo vi iterm
+   92  sudo touch iterm
+   93  cd /Users/ph/Desktop
+   94  sudo vi iterm
+   95  cp iterm /usr/bin
+   96  sudo cp iterm /usr/bin
+   97  ./prepareWorkspace.sh
+   98  ls -la
+   99  cd ..
+  100  pwd
+  101  git checkout master
+  102  cd jboss/5.1.0.GA
+  103  ls -la
+  104  git lfs pull
+  105  ls -la
+  106  cd ..
+  107  git lfs pull
+  108  cd ..
+  109  ls -la
+  110  git rev-parse --abbrev-ref HEAD 
+  111  git submodule foreach 'git lfs pull'
+  112  history | grep svn
+  113  history
+  114  svn pg svn:externals http://svn01.blr.toronto.redknee.com/svn/Nexus/project/installables/YEM_SBF_walletXpress/branches/V2.2/
+  115  ./getSVNInfo.sh
+  116  cd area-de-trabalho
+  117  sudo chmod +x getSVNInfo.sh
+  118  ./getSVNInfo.sh
+  119  svn log http://svn01.blr.toronto.redknee.com/svn//nexus/base/trunk:42939
+  120  svn log http://svn01.blr.toronto.redknee.com/svn/nexus/base/trunk:42939
+  121  svn log http://svn01.blr.toronto.redknee.com/svn/Nexus/nexus/base/trunk:42939 -v --stop-on-copy
+  122  svn log http://svn01.blr.toronto.redknee.com/svn/Nexus/nexus/base/trunk -r 42939
+  123  svn log http://svn01.blr.toronto.redknee.com/svn/Nexus/nexus/base/trunk -r 42939 -v --stop-on-copy
+  124  history | grep svn
+  125  ls
+  126  cd /Users/ph/Downloads
+  127  wget http://aws-jenkins.aws.labs.redknee.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/4/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip
+  128  wget http://aws-jenkins.aws.labs.redknee.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/4/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip -v
+  129  wget -v http://aws-jenkins.aws.labs.redknee.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/4/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip
+  130  wget -v -S http://aws-jenkins.aws.labs.redknee.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/4/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip
+  131  wget -v -S -c http://aws-jenkins.aws.labs.redknee.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/4/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip
+  132  curl -vvv http://aws-jenkins.aws.labs.redknee.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/4/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip \\n  --output dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4-curl.zip
+  133  \ncurl -vvv https://jenkins-rk-new.crossover.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/lastSuccessfulBuild/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip \\n  --output dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip
+  134  wget -v -S -c --ignore-length http://aws-jenkins.aws.labs.redknee.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/4/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip
+  135  ls -la
+  136  rm -rf *.crdownload
+  137  ls -la
+  138  ./build.sh
+  139  git submodule foreach 'git push origin YEM_SBF'
+  140  git submodule foreach 'git push origin YEM_SBF:YEM_SBF'
+  141  git submodule foreach 'git push origin *:*'
+  142  git submodule foreach 'git pull *:*'
+  143  git submodule foreach 'git pull'
+  144  git submodule foreach 'git push origin YEM_SBF'
+  145  git push -f origin YEM_SBF
+  146  ./build.sh
+  147  history | grep ssh
+  148  ls
+  149  grep -c "java.lang.Integer=1563051599" server_appJBoss1.log.92
+  150  cd area-de-trabalho
+  151  mkdir ws-svn-andrey-topup-nexus
+  152  cd ws-svn-andrey-topup-nexus
+  153  ls -la
+  154  svn co http://svn01.blr.toronto.redknee.com/svn/Nexus/nexus_gradle/branches/core_migrate/
+  155  ls
+  156  cd core_migrate
+  157  ls -la
+  158  gradlew connector-ft:prepareArtifacts
+  159  ./gradlew connector-ft:prepareArtifacts
+  160  sudo chmod +x gradlew
+  161  ./gradlew connector-ft:prepareArtifacts
+  162  sdkman
+  163  sdk
+  164  sdk version
+  165  curl -s "https://get.sdkman.io" | bash
+  166  sdk selfupdate force
+  167  source "$HOME/.sdkman/bin/sdkman-init.sh"
+  168  sdk selfupdate force
+  169  sdk ls java
+  170  sdk use java 7u141-zulu
+  171  ./gradlew connector-ft:prepareArtifacts
+  172  ./gradlew clean
+  173  ./gradlew connector-ft:prepareArtifacts
+  174  ./gradlew core:prepareArtifacts
+  175  ./clean.sh
+  176  ls -la
+  177  ./gradlew clean
+  178  ls -la
+  179  ./gradlew
+  180  git submodule foreach 'git pull'
+  181  git submodule foreach 'git pull origin -a'
+  182  git submodule foreach 'git pull -a'
+  183  git submodule foreach 'git pull -a' origin *:*
+  184  git submodule foreach 'git pull -a origin *:*'
+  185  git submodule foreach 'git pull -a origin YEM_SBF'
+  186  git pull
+  187  git submodule foreach 'git pull origin YEM_SBF || :'
+  188  git pull origin YEM_SBF
+  189  git submodule foreach 'git pull origin YEM_SBF || :'
+  190  history | grep curl
+  191  curl -vvv http://jenkins01.ber.office.redknee.com/jenkins/
+  192  cd area-de-trabalho
+  193  ls -la
+  194  mkdir ws-topup-nexus-final-github-III
+  195  cd ws-topup-nexus-final-github-III
+  196  ls -la
+  197  git clone --recursive -b YEM_SBF https://github.com/RedkneeSolutionsInc/UnifiedPayments-Topup-Nexus.git
+  198  ls -la
+  199  history | grep svn
+  200  svn pg svn:externals http://svn01.blr.toronto.redknee.com/svn/Nexus/project/installables/YEM_SBF_walletXpress/branches/V2.2/
+  201  ./UnifiedPayments-Topup-Nexus/ls -la
+  202  ls -la
+  203  cd UnifiedPayments-Topup-Nexus
+  204  ls -la
+  205  ls -la | grep sh
+  206  sudo chmod +x checkoutYEMSBF.sh
+  207  ./checkoutYEMSBF.sh
+  208  ls -la
+  209  cd base
+  210  git fetch -p
+  211  git branch
+  212  cd ..
+  213  ./checkoutYEMSBF.sh
+  214  ll
+  215  ./checkoutYEMSBF.sh
+  216  ll
+  217  ./checkoutYEMSBF.sh
+  218  git push origin
+  219  git status
+  220  git commit -am 'TOP-1729 synching with SVN externals'
+  221  git config user.name "Paulo Rodrigues"
+  222  git config user.email paulo.rodrigues@optiva.com
+  223  git commit -am 'TOP-1729 synching with SVN externals'
+  224  git push
+  225  history | grep jenkins
+  226  wget -v -S -c --ignore-length http://aws-jenkins.aws.labs.redknee.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals/4/artifact/dist-TOP-1729-create-sabafon-branch-pointing-to-same-commits-used-in-svn-externals-4.zip
+  227  wget -v -S -c --ignore-length https://jenkins-rk-new.crossover.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/YEM_SBF/lastSuccessfulBuild/artifact/
+  228  wget -v -S -c --ignore-length https://jenkins-rk-new.crossover.com/job/TopUp/job/UnifiedPayments-Topup-Nexus/job/YEM_SBF/lastSuccessfulBuild/artifact/dist-YEM_SBF-5.zip
+  229  ls -la
+  230  cd area-de-trabalho
+  231  ls -la
+  232  mkdir ws-topup-caf-voms
+  233  git clone https://github.com/RedkneeSolutionsInc/UnifiedPayments-TopUp-VOMs.git
+  234  cd ws-topup-caf-voms
+  235  ls -la
+  236  cd ..
+  237  ls -la
+  238  mv -r  UnifiedPayments-TopUp-VOMs ws-topup-caf-voms
+  239  mv UnifiedPayments-TopUp-VOMs ws-topup-caf-voms
+  240  ls -la
+  241  cd ws-topup-caf-voms
+  242  ls -la
+  243  cd UnifiedPayments-TopUp-VOMs
+  244  ls -la
+  245  cd ..
+  246  mkdir ws-oracle-docker
+  247  cd ws-oracle-docker
+  248  git clone https://github.com/oracle/docker-images.git
+  249  cd docker-images
+  250  ls -la
+  251  cd OracleDatabase/SingleInstance/
+  252  ls -la
+  253  cat README.md
+  254  ls -la
+  255  cd dockerfiles
+  256  ls -la
+  257  ./buildDockerImage.sh
+  258  ./buildDockerImage.sh -v 12.1.0.2 -e 
+  259  top
+  260  ./buildDockerImage.sh -v 12.2.0.2 -e 
+  261  ./buildDockerImage.sh -v 12.2.0.2 -e
+  262  ./buildDockerImage.sh
+  263  ./buildDockerImage.sh -v 12.2.0.1 -e
+  264  ps aux | grep -i parallel
+  265  sudo kill -KILL 59520
+  266  ./buildDockerImage.sh -v 12.2.0.1 -e
+  267  git status
+  268  bash -c "clear && /bin/zsh"
+  269  docker images
+  270  ls -la
+  271  cd topup-parent/topup-docker/
+  272  ./buildAndPushDocker.sh
+  273  sudo chmod +x buildAndPushDocker.sh
+  274  ./buildAndPushDocker.sh
+  275  docker build --no-cache -t registry2.swarm.devfactory.com/optiva/optiva-topup-caf-oracle-db-12-ee:latest \\n  optiva-oracle.Dockerfile
+  276  docker build --no-cache -t registry2.swarm.devfactory.com/optiva/optiva-topup-caf-oracle-db-12-ee:latest optiva-oracle.Dockerfile
+  277  docker build --no-cache -t registry2.swarm.devfactory.com/optiva/optiva-topup-caf-oracle-db-12-ee:latest ./optiva-oracle.Dockerfile
+  278  docker build
+  279  docker build --help
+  280  docker build --no-cache -t registry2.swarm.devfactory.com/optiva/optiva-topup-caf-oracle-db-12-ee:latest -f optiva-oracle.Dockerfile
+  281  docker build --no-cache -t registry2.swarm.devfactory.com/optiva/optiva-topup-caf-oracle-db-12-ee:latest -f optiva-oracle.Dockerfile .
+  282  ./buildAndPushDocker.sh
+  283  sqlplus sys/oracle@//localhost:1521/xe as sysdba
+  284  ./buildAndPushDocker.sh
+  285  ./runOracleDocker.sh
+  286  ./buildAndPushDocker.sh
+  287  ./runOracleDocker.sh
+  288  pwd
+  289  cd topup-parent/topup-docker
+  290  ls -la
+  291  docker-compose up docker-compose-oracle.yml
+  292  docker-compose up -f docker-compose-oracle.yml
+  293  docker-compose -f docker-compose-oracle.yml up
+  294  clear
+  295  docker-compose -f docker-compose-oracle.yml up
+  296  docker-compose -f docker-compose-oracle.yml up --force-recreate
+  297  rm -rf resources/home; ./runOracleDocker.sh
+  298  history
+  299  ./runOracleDocker.sh
+  300  top
+  301  ./runOracleDocker.sh
+  302  cd topup-parent
+  303  mvn -N io.takari:maven:wrapper
+  304  mvnn -v
+  305  mvn -v
+  306  history
+  307  history | grep innstall
+  308  history | grep install
+  309  sdk
+  310  sdk install maven
+  311  mvn
+  312  cd topup-parent
+  313  mvn -N io.takari:maven:wrapper
+  314  cd ..
+  315  ./topup-parent/mvnw
+  316  ./topup-parent/mvnw check
+  317  cd topup-parent
+  318  ./topup-parent/mvnw check
+  319  ./mvnw check
+  320  ./mvnw verify
+  321  log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  322  git log --graph --abbrev-commit --decorate --format=format:'%C(yellow)%h%C(reset)%C(auto)%d%C(reset) %C(normal)%s%C(reset) %C(dim white)%an%C(reset) %C(dim blue)(%ar)%C (reset)' --all
+  323  history | grep external
+  324  atom docker-compose.yaml
+  325  pwd
+  326  docker build -t "aplicacao-loja:v1" .\n
+  327  docker-compose up -d\n
+  328  docker ps
+  329  docker-compose up -d\n
+  330  docker build -t "aplicacao-loja:v1" .\n
+  331  touch index.html
+  332  atom index.html
+  333  docker build -t "aplicacao-loja:v1" .\n
+  334  docker-compose up -d\n
+  335  docker ps
+  336  docker-compose up\n
+  337  docker ps
+  338  docker-compose up\n
+  339  docker ps
+  340  docker exec -it 622f32a70779 sh\n
+  341  docker-compose up\n
+  342  docker ps
+  343  docker exec -it 5fabec5d2255 sh\n
+  344  docker-compose up\n
+  345  ls -la
+  346  rm -rf volume_mysql
+  347  mkdir volume_mysql
+  348  docker-compose up\n
+  349  docker ps
+  350  docker exec -it 47f1afbfc4a8 sh\n
+  351  mkdir kubernetes
+  352  cd kubernetes
+  353  atom aplicacao.yaml\n
+  354  kubectl create -f aplicacao.yaml
+  355  minikube start
+  356  kubectl create -f aplicacao.yaml
+  357  kubectl get pods\n
+  358  kubectl delete pods aplicacao\n
+  359  kubectl get pods\n
+  360  kubectl delete pods *\n
+  361  kubectl get pods\n
+  362  kubectl delete pods consul*\n
+  363  kubectl delete pods consul-0\n
+  364  kubectl delete pods consul-1\n
+  365  kubectl delete pods consul-2\n
+  366  kubectl get pods\n
+  367  atom deployment.yaml\n
+  368  kubectl create -f deployment.yaml
+  369  kubectl get pods\n
+  370  kubectl delete pods aplicacao-deployment-f7f75d4db-wbl76\n
+  371  kubectl get pods\n
+  372  minikube dashboard
+  373  curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.28.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/\n
+  374  minikube start
+  375* minikube dashboard
+  376  kubectl get pods
+  377  kubectl describe pods | grep IP\n
+  378  kubectl describe pods | grep IP:\n
+  379  cd area-de-trabalho/ws-kubernetes-alura
+  380  ls -la
+  381  atom servico-aplicacao.yaml
+  382  atom xpto
+  383  kubectl create -f servico-aplicacao.yaml
+  384  minikube service servico-aplicacao --url\n
+  385  history
+
+  kubectl delete statefulsets,daemonsets,replicasets,services,deployments,pods,rc,persistentvolumeclaims --all
+
